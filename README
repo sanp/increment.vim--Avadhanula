@@ -1,3 +1,6 @@
+Sanp edit: Changed increment.vim plugin from dos to unix fileformat.  Otherwise,
+it is the same.
+
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=156
 
 This script provides a way to quickly create incremented lists (either
