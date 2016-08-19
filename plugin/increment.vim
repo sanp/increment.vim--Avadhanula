@@ -54,6 +54,13 @@
 " Last Modification: Dec 17 2001 00:59:09
 
 
+if exists('g:loaded_increment') || &cp || version < 700
+   finish
+endif
+let g:loaded_increment= 1
+
+
+
 "=========================================================================== 
 com! -ra -nargs=? Inc :call IncrementColumn(1,<args>)
 com! -ra -nargs=? IncR :call IncrementColumn(2,<args>)
