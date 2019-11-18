@@ -1,4 +1,10 @@
-Sanp edit: Changed increment.vim plugin from dos to unix fileformat.  Otherwise,
+This is a direct copy of the increment.vim repository in vim-scripts,
+[here](https://github.com/vim-scripts/increment.vim--Avadhanula). The only
+change is that that version uses windows style line endings, which can cause
+errors on non-windows machines. This version uses unix line endings instead of
+dos.
+
+Changed increment.vim plugin from dos to unix fileformat.  Otherwise,
 it is the same.
 
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=156
